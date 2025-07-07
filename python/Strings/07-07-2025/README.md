@@ -14,3 +14,18 @@
 
 377139 this is the rank after solving the problem
 55 points to gold badge
+
+solved python string mutation
+369224 rank changed
+45 points to gold badge
+
+---
+
+approach: we can approach it in two or three ways
+one is built in methods
+we we won't use since we are building logic
+second is adding a string through slicing and adding it back like string[0:k] + character + string[k+1:]
+so this is also works but for longer string it needs to create a sepeate string which might not be feasible for sometime
+and also in loops also it is not feasible since there will be lot of garbage values for strings
+so using list is better feasible for my solution
+converting string to list by list(string) and changing and converting it to string through join
